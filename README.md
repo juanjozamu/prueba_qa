@@ -1,4 +1,4 @@
-# Automatización QA para FacturaZen 🧪
+# Automatización QA para FacturaZen 
 
 Este repositorio contiene una prueba automatizada de QA (Quality Assurance) diseñada para la plataforma **FacturaZen**, como parte del proceso de evaluación técnica proporcionado por Centauro.
 

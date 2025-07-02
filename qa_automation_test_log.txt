@@ -1,0 +1,64 @@
+[19:39:29]  INICIANDO PRUEBA DE QA AUTOMATION - FACTURAZEN
+[19:39:29] ============================================================
+[19:39:29]  Objetivo: Crear filtro para clientes con estrategias mejoradas
+[19:39:29] ============================================================
+[19:39:29]  Configurando Chrome driver...
+[19:39:31]  Chrome driver configurado exitosamente
+[19:39:31]  Accediendo a FacturaZen...
+[19:39:39]  Screenshot guardado: screenshot_01_login_page.png
+[19:39:39]  Realizando login...
+[19:39:39] 🔍 Buscando campo de usuario...
+[19:39:39]  campo de usuario encontrado
+[19:39:39]  Usuario ingresado
+[19:39:39] 🔍 Buscando campo de contraseña...
+[19:39:39]  campo de contraseña encontrado
+[19:39:40]  Contraseña ingresada
+[19:39:40]  Esperando que botón de login sea clickeable...
+[19:39:40]  botón de login listo para click
+[19:39:41]  Click exitoso en botón de login
+[19:39:41]  Login realizado
+[19:39:49]  Screenshot guardado: screenshot_02_post_login.png
+[19:39:49]  Login verificado exitosamente
+[19:39:49]  Navegando al dashboard...
+[19:39:54]  Screenshot guardado: screenshot_03_dashboard.png
+[19:39:54] ==================================================
+[19:39:54]  INICIANDO CREACIÓN DE FILTRO PARA CLIENTES
+[19:39:54] ==================================================
+[19:39:54]  Estrategia 1: Buscando menú de Clientes...
+[19:39:54]  Probando selector: //span[contains(text(),'Clientes')]
+[19:39:56]  Click exitoso en menú Clientes
+[19:39:56]  Acceso a Clientes exitoso
+[19:40:01]  Screenshot guardado: screenshot_clientes_seccion.png
+[19:40:01]  Esperando carga completa de la página...
+[19:40:06]  Iniciando búsqueda inteligente de filtros...
+[19:40:06]  Analizando DOM de la página actual...
+[19:40:16]  Elementos encontrados: 6 inputs, 0 selects, 41 buttons
+[19:40:16]  Analizando campos INPUT:
+[19:40:16]    Input 1: type='search', id='b1-b2-b6-b1-b4-Input_Name', name='no-name', placeholder='Buscar...'
+[19:40:16]     Campo de texto potencial para filtro encontrado: b1-b2-b6-b1-b4-Input_Name
+[19:40:16]    Input 2: type='email', id='b1-b2-b6-b1-b4-Input_Email', name='no-name', placeholder='Buscar...'
+[19:40:16]    Input 3: type='number', id='b1-b2-b6-b1-b4-Input_Id', name='no-name', placeholder='Buscar...'
+[19:40:16]    Input 4: type='search', id='b1-b2-b6-b1-b4-Input_Address', name='no-name', placeholder='Buscar...'
+[19:40:16]     Campo de texto potencial para filtro encontrado: b1-b2-b6-b1-b4-Input_Address
+[19:40:16]    Input 5: type='number', id='b1-b2-b6-b1-b4-Input_Telephone', name='no-name', placeholder='Buscar...'
+[19:40:16]    Input 6: type='number', id='b1-b2-b6-b1-b4-b3-Input_SelectedPageButton', name='no-name', placeholder='no-placeholder'
+[19:40:16]  Analizando campos SELECT:
+[19:40:16] 🔍 Estrategia 1: Buscando campo de texto para nombre...
+[19:40:16]  Campo de nombre encontrado: id='b1-b2-b6-b1-b4-Input_Name', placeholder='Buscar...'
+[19:40:18]  Filtro por nombre 'Ruben' aplicado exitosamente
+[19:40:18] 🔍 Estrategia 2: Buscando dropdown de estado...
+[19:40:18]  Aplicando filtros...
+[19:40:18]  Filtros aplicados con Enter
+[19:40:21]  Verificando resultados...
+[19:40:44]  Elementos de resultado encontrados: 10
+[19:40:44] ==================================================
+[19:40:44]  RESUMEN DE FILTROS APLICADOS:
+[19:40:44]    1. Nombre: Ruben
+[19:40:44]  Total de filtros aplicados: 1
+[19:40:44] ==================================================
+[19:40:44]  Screenshot guardado: screenshot_filtros_resultado_final.png
+[19:40:44] ============================================================
+[19:40:45] PRUEBA DE QA AUTOMATION COMPLETADA EXITOSAMENTE
+[19:40:45]  Se crearon filtros para clientes según los requerimientos
+[19:40:45] ============================================================
+[19:40:45]  Pausa para revisión manual - Presiona Enter para continuar...

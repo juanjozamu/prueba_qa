@@ -36,8 +36,8 @@ Automatizar el proceso de creación de un filtro en la sección de clientes del 
 
 ## Credenciales de prueba
 
-- Usuario: `ventas-demo@centaurosolutions.com`
-- Contraseña: `Prueba123`
+- Usuario: `***`
+- Contraseña: `***`
 - URL demo: [https://csl-tst.outsystemsenterprise.com/FacturaZen](https://csl-tst.outsystemsenterprise.com/FacturaZen)
 
 ## 📝 Notas adicionales
